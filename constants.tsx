@@ -13,7 +13,12 @@ import {
   Car, 
   Landmark, 
   Wallet, 
-  Coffee 
+  Coffee,
+  History,
+  Lightbulb,
+  Star,
+  Compass,
+  Utensils
 } from 'lucide-react';
 
 export const SHORTCUT_TOWNS = [
@@ -41,4 +46,9 @@ export const CATEGORY_ICONS: Record<string, React.ReactNode> = {
   'Commute & transportation': <Car className="w-5 h-5" />,
   'Property taxes': <Wallet className="w-5 h-5" />,
   'Lifestyle amenities': <Coffee className="w-5 h-5" />,
+  'Historical events': <History className="w-5 h-5" />,
+  'Interesting facts': <Lightbulb className="w-5 h-5" />,
+  'Famous people': <Star className="w-5 h-5" />,
+  'Famous places': <Compass className="w-5 h-5" />,
+  'Food & Dining': <Utensils className="w-5 h-5" />,
 };

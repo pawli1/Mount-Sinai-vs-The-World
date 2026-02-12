@@ -3,8 +3,8 @@ export interface ComparisonCategory {
   id: string;
   name: string;
   description: string;
-  mtSinaiAdvantage: string;
-  otherTownMetric: string;
+  mtSinaiFactual: string;
+  otherTownFactual: string;
   icon: string;
 }
 
@@ -14,6 +14,7 @@ export interface ComparisonResult {
   targetTown: string;
   categories: ComparisonCategory[];
   verdict: string;
+  heroImagePrompt: string;
 }
 
 export type TownName = 
